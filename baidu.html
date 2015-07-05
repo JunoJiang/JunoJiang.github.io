@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>hello world</title>
+</head>
+<body >
+<script>
+    function search()
+    {
+        var x=document.getElementById("txt").value;
+        var y="https://www.baidu.com/s?wd="+x;
+        window.location.assign(y)
+    }
+</script>
+<div id="container">
+    <div id="header">
+        <p>
+            <img src="logo_white_ee663702.png" width="300";height="500">
+        </p>
+    </div>
+    <div id="div1">
+        <input type="text" id="txt">
+        <input type="button"  id="b1" value="百度一下" onclick="search()">
+    </div>
+    <div id="div2" >
+        <p class="classC">
+            <h id="title">推荐导航</h>
+        </p>
+        <p class="classB">
+            <a href="https://www.taobao.com/" target="_blank" class=classA >
+                <img  class=classD src="taobao.png"/>
+            </a>
+            <a href="http://www.jd.com/" target="_blank" class=classA >
+                <img class=classD src="jingdong.png"/>
+            </a>
+            <a href="http://www.nuomi.com/" target="_blank"  class=classA  >
+                <img class=classD src="baidunuomi.png"/>
+            </a>
+            <a href="http://www.yhd.com/" target="_blank"  class=classA>
+                <img class=classD src="yihaodian.png"/>
+            </a>
+            <a href="http://www.ctrip.com/" target="_blank"  class=classA>
+                <img class=classD src="xiecheng.png"/>
+            </a>
+            <a href="http://www.iqiyi.com/" target="_blank"  class=classA>
+                <img class=classD src="aiqiyi.png"/>
+            </a>
+        </p>
+        <p class="classB">
+            <a href="https://www.suning.com/" target="_blank"  class=classA>
+                <img class=classD src="suning.png"/>
+            </a>
+            <a href="http://vip.baidu.com/" target="_blank"  class=classA>
+                <img class=classD src="bdvip.png"/>
+            </a>
+            <a href="http://www.mafengwo.cn/" target="_blank" class=classA>
+                <img class=classD src="mafengwo.png"/>
+            </a>
+            <a href="http://www.58.com/" target="_blank" class=classA>
+                <img class=classD src="58.png"/>
+            </a>
+            <a href="http://www.baixing.com/" target="_blank"  class=classA>
+                <img class=classD src="bxw.png"/>
+            </a>
+            <a href="http://www.xywy.com/" target="_blank"  class=classA>
+                <img class=classD src="xywy.png"/>
+            </a>
+        </p>
+        <p class="classB">
+            <a href="http://www.bitauto.com/" target="_blank"  class=classA>
+                <img class=classD src="yc.png"/>
+            </a>
+            <a href="http://www.zongheng.com/" target="_blank"  class=classA>
+                <img class=classD  src="zh.png"/>
+            </a>
+            <a href="http://www.zhen.com/" target="_blank"  class=classA>
+                <img  class=classD src="zp.png"/>
+            </a>
+            <a href="http://weibo.com/" target="_blank"  class=classA>
+                <img  class=classD src="weibo.png"/>
+            </a>
+            <a href="http://www.sina.com.cn/" target="_blank"  class=classA>
+                <img  class=classD src="xinlang.png"/>
+            </a>
+            <a href="http://caipiao.baidu.com/" target="_blank"  class=classA>
+                <img  class=classD src="caipiao.png"/>
+            </a>
+        </p>
+    </div>
+    <div id="footer">
+        <p id="copyright">
+            @2015 百度搜索 beta1.0
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
